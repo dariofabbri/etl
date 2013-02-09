@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Sviluppo/git/etl/.Java/lib/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sviluppo/git/etl/.Java/lib/talend_DB_mssqlUtil.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sviluppo/git/etl/.Java/lib/advancedPersistentLookupLib-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sviluppo/git/etl/.Java/lib/postgresql-8.3-603.jdbc3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sviluppo/git/etl/.Java/lib/jtds-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sviluppo/git/etl/.Java/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sviluppo/git/etl/.Java/lib/trove.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sviluppo/git/etl/.Java/lib/jboss-serialization.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sviluppo/git/etl/.Java/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

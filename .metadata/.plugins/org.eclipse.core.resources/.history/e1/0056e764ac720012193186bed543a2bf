@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_IwLvomuvEeKzOMlBkY94Vg" id="_IwLIkGuvEeKzOMlBkY94Vg" label="SAP2" creationDate="2013-01-31T15:04:32.538+0100" modificationDate="2013-02-07T22:45:48.153+0100" version="0.1" statusCode="" item="_IwLvpGuvEeKzOMlBkY94Vg" displayName="SAP2">
+    <author href="../../talend.project#_u3nFMHKrEeKhhby3wMHTWw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_FHjSIHKsEeKhhby3wMHTWw" path=""/>
+  <TalendProperties:DatabaseConnectionItem xmi:id="_IwLvpGuvEeKzOMlBkY94Vg" property="_IwLvomuvEeKzOMlBkY94Vg" state="_FHjSIHKsEeKhhby3wMHTWw">
+    <connection href="SAP2_0.1.item#_IwLvoGuvEeKzOMlBkY94Vg"/>
+  </TalendProperties:DatabaseConnectionItem>
+</xmi:XMI>

@@ -1,0 +1,112 @@
+!SESSION 2013-02-09 12:26:30.874 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.talend.platform.logging 1 0 2013-02-09 12:26:32.650
+!MESSAGE 2013-02-09 12:26:32,647 INFO  org.talend.repository.ui.login.LoginComposite  - validate updatesite...
+
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-02-09 12:28:07.609
+!MESSAGE Error creating Groovy language support
+!STACK 0
+java.lang.ClassNotFoundException: org.codehaus.jdt.groovy.integration.internal.GroovyLanguageSupport
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.codehaus.jdt.groovy.integration.LanguageSupportFactory.tryInstantiate(LanguageSupportFactory.java:141)
+	at org.codehaus.jdt.groovy.integration.LanguageSupportFactory.getLanguageSupport(LanguageSupportFactory.java:114)
+	at org.codehaus.jdt.groovy.integration.LanguageSupportFactory.getEventHandler(LanguageSupportFactory.java:166)
+	at org.eclipse.jdt.internal.core.JavaProject.close(JavaProject.java:470)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.close(DeltaProcessor.java:527)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.elementAdded(DeltaProcessor.java:1027)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.updateCurrentDeltaAndIndex(DeltaProcessor.java:2451)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.traverseDelta(DeltaProcessor.java:2083)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.processResourceDelta(DeltaProcessor.java:1782)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:1944)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:327)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1181)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1226)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1238)
+	at org.talend.designer.runprocess.java.JavaProcessorUtilities.initJavaProject(JavaProcessorUtilities.java:123)
+	at org.talend.designer.runprocess.java.JavaProcessorUtilities.initializeProject(JavaProcessorUtilities.java:155)
+	at org.talend.designer.runprocess.java.JavaProcessorUtilities.getProcessorProject(JavaProcessorUtilities.java:100)
+	at org.talend.designer.runprocess.DeleteAllJobWhenStartUp.earlyStartup(DeleteAllJobWhenStartUp.java:94)
+	at org.talend.designer.runprocess.DeleteAllJobWhenStartUp.startup(DeleteAllJobWhenStartUp.java:57)
+	at org.talend.designer.runprocess.RunProcessService.deleteAllJobs(RunProcessService.java:198)
+	at org.talend.core.CoreService.deleteAllJobs(CoreService.java:312)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.logOnProject(ProxyRepositoryFactory.java:1744)
+	at org.talend.repository.ui.login.LoginDialog$1.run(LoginDialog.java:373)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.talend.platform.logging 1 0 2013-02-09 12:28:09.701
+!MESSAGE 2013-02-09 12:28:09,700 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - test@talend.com logged on SAP_to_Gestionale
+
+
+!ENTRY org.talend.platform.logging 1 0 2013-02-09 12:28:10.068
+!MESSAGE 2013-02-09 12:28:10,067 INFO  org.talend.core.repository.GeneratedJetEmitersLoginTask  - Generating JetEmiters
+
+
+!ENTRY org.talend.platform.logging 1 0 2013-02-09 12:28:10.076
+!MESSAGE 2013-02-09 12:28:10,076 INFO  org.talend.core.repository.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-09 12:28:10.908
+!MESSAGE NLS unused message: فایل in: org.eclipse.ui.internal.intro.impl.Messages
+
+!ENTRY org.eclipse.jface 2 0 2013-02-09 12:28:12.465
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-02-09 12:28:12.465
+!MESSAGE A conflict occurred for CTRL+A:
+Binding(CTRL+A,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.selectAll,Seleziona tutto,
+		Seleziona tutto,
+		Category(org.eclipse.ui.category.edit,Modifica,null,true),
+		ActionHandler(RetargetAction(selectAll)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+A,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.selectAll,Seleziona tutto,
+		Seleziona tutto,
+		Category(org.eclipse.ui.category.edit,Modifica,null,true),
+		ActionHandler(RetargetAction(selectAll)),
+		,,true),null),
+	org.talend.core.scheme,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+A,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.selectAll,Seleziona tutto,
+		Seleziona tutto,
+		Category(org.eclipse.ui.category.edit,Modifica,null,true),
+		ActionHandler(RetargetAction(selectAll)),
+		,,true),null),
+	org.talend.core.scheme,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+A,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.selectAll,Seleziona tutto,
+		Seleziona tutto,
+		Category(org.eclipse.ui.category.edit,Modifica,null,true),
+		ActionHandler(RetargetAction(selectAll)),
+		,,true),null),
+	org.talend.core.scheme,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.talend.platform.logging 1 0 2013-02-09 12:31:09.932
+!MESSAGE 2013-02-09 12:31:09,932 INFO  org.talend.designer.core.runprocess.Processor  - Linea di comando: C:/Program Files/Java/jre7/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/Sviluppo/git/etl/.Java/lib/advancedPersistentLookupLib-1.0.jar;C:/Users/Sviluppo/git/etl/.Java/lib/commons-collections-3.2.jar;C:/Users/Sviluppo/git/etl/.Java/lib/dom4j-1.6.1.jar;C:/Users/Sviluppo/git/etl/.Java/lib/jboss-serialization.jar;C:/Users/Sviluppo/git/etl/.Java/lib/jtds-1.2.5.jar;C:/Users/Sviluppo/git/etl/.Java/lib/log4j-1.2.15.jar;C:/Users/Sviluppo/git/etl/.Java/lib/postgresql-8.3-603.jdbc3.jar;C:/Users/Sviluppo/git/etl/.Java/lib/talend_DB_mssqlUtil.jar;C:/Users/Sviluppo/git/etl/.Java/lib/trove.jar;C:/Users/Sviluppo/git/etl/.Java/classes;C:/Users/Sviluppo/git/etl/.Java/lib; sap_to_gestionale.import_cliente_0_1.import_cliente --context=Default --stat_port=3540 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2013-02-09 12:34:07.235
+!MESSAGE 2013-02-09 12:34:07,235 INFO  org.talend.designer.core.runprocess.Processor  - Linea di comando: C:/Program Files/Java/jre7/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/Sviluppo/git/etl/.Java/lib/advancedPersistentLookupLib-1.0.jar;C:/Users/Sviluppo/git/etl/.Java/lib/commons-collections-3.2.jar;C:/Users/Sviluppo/git/etl/.Java/lib/dom4j-1.6.1.jar;C:/Users/Sviluppo/git/etl/.Java/lib/jboss-serialization.jar;C:/Users/Sviluppo/git/etl/.Java/lib/jtds-1.2.5.jar;C:/Users/Sviluppo/git/etl/.Java/lib/log4j-1.2.15.jar;C:/Users/Sviluppo/git/etl/.Java/lib/postgresql-8.3-603.jdbc3.jar;C:/Users/Sviluppo/git/etl/.Java/lib/talend_DB_mssqlUtil.jar;C:/Users/Sviluppo/git/etl/.Java/lib/trove.jar;C:/Users/Sviluppo/git/etl/.Java/classes;C:/Users/Sviluppo/git/etl/.Java/lib; sap_to_gestionale.import_cliente_0_1.import_cliente --context=Default --stat_port=3631 %*
+

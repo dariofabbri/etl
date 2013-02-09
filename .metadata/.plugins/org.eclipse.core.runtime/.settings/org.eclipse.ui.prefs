@@ -1,0 +1,9 @@
+#Sat Feb 09 12:28:10 CET 2013
+workspaceTasksDone=org.talend.core.InitConnectionsMigrationTask|org.talend.designer.core.ui.preferences.migration.AddQuotesForStatLogsPreference|org.talend.migrationTool.InitWorkspaceMigrationTask|org.talend.repository.model.migration.ChangeProjectTechinicalName
+lastUSedProject=SAP_TO_GESTIONALE
+eclipse.preferences.version=1
+showIntro=false
+CLOSE_EDITORS_ON_EXIT=true
+LOGINCOUNT=1
+lastUSedConnection=Locale
+PERSPECTIVE_BAR_SIZE=100
